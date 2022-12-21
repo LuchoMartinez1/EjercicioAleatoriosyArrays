@@ -31,9 +31,11 @@ public class JuegoLoteria {
 
         int reintegro = azar.nextInt(5)+1;
 
+
         boletoStr = Arrays.toString(boleto);
 
         JOptionPane.showMessageDialog(null, "Tu número de la primitiva es:\n"+"\n"+boletoStr+"\n"+"\nReintegro: "+reintegro);
+
     }
 
 
