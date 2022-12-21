@@ -14,14 +14,14 @@ import javax.swing.JOptionPane;
 public class InputDialog {
     public static void main(String[] args) {
         //String respuesta = salidaMejorada.JOptionPane.showInputDialog("Escribe tu nombre");
- //----------------------------------------------------------------       
+ //----------------------------------------------------------------
 //        salidaMejorada.JOptionPane.showInputDialog(Componente padre, Mensaje, Texto Inicial);
 //        String respuesta = salidaMejorada.JOptionPane.showInputDialog("¿Cual es su nombre?", "atxy2k");
  //-----------------------------------------------------------------------       
 //        salidaMejorada.JOptionPane.showInputDialog(Componente padre, Mensaje, Titulo, Tipo De Mensaje (WARNING) );
         String respuesta = JOptionPane.showInputDialog(null, 
                 "Escriba nuevamente su nombre", "Error!", JOptionPane.ERROR_MESSAGE);
- //------------------------------------------------------------------       
+ //----- -------------------------------------------------------------
 //        salidaMejorada.JOptionPane.showInputDialog(Componente padre, Mensaje, Titulo,
 //        Tipo De Mensaje, Icono, Array de opciones, Seleccion por defecto );
     
